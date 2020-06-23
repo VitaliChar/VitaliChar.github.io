@@ -1,4 +1,4 @@
-$(document).ready(function() {
+﻿$(document).ready(function() {
     'use strict';
     paper.install(window);
     paper.setup(document.getElementById('mineCanvas')) ;
@@ -20,7 +20,7 @@ $(document).ready(function() {
     text.justification = 'center';
     text.fillColor = 'white';
     text.fontSize = 20;
-    text.content = 'hello world';
+    text.content = 'hello Wit!!!';
 
     tool.onMouseDown = function(event) {
         var c = Shape.Circle(event.point.x, event.point.y, 20);
